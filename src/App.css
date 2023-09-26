@@ -1,5 +1,6 @@
-.App {
+/* .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -11,28 +12,128 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+} */
+/* Header.css */
+/* .header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 10px;
+  background-color:grey;
+  color:blanchedalmond;
+}
+
+.left-side {
+  flex: 1;
+}
+
+.right-side a {
+  
+  margin-right: 15px;
+  color: #fff;
+  text-decoration:#007bff;
+}
+
+.right-side a:hover {
+  text-decoration:underline;
+} */
+/* Header.css */
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+border:3px solid gray;
+}
+
+.left-side {
+  flex: 1;
+}
+
+.left-side img {
+  width: 80px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add margin for spacing */
+}
+
+.right-side a {
+  text-decoration: none;
   color: white;
+  padding: 8px 16px;
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  background-color:blue; /* Add background color */
+  transition: background-color 0.3s ease; /* Smooth transition for background-color */
 }
 
-.App-link {
-  color: #61dafb;
+.right-side a:hover {
+  background-color: #007d8f; /* Change background color on hover */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-heading {
+  border:5px solid grey;
+  font-size: 24px;
+  /* color: palevioletred; */
+  font-weight: bold;
+  text-align: center;
+  background-color:seashell;
+  padding: 20px;
+  max-width:0cap;
+  
+  /* Add more CSS properties as needed */
 }
+.post-card {
+  display:flexbox;
+  background-color: burlywood;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 45px;
+  max-width: 1200px;
+}
+
+.post-title {
+  text-align: center;
+  font-size: 23px;
+  margin: 0;
+}
+
+.post-text {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.post-details {
+  font-size: 15px;
+  color: black;
+}
+
+.post-link {
+  text-decoration:underline;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.post-link:hover {
+  text-decoration:solid;
+}
+.footer {
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footer-content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+body {
+  background-color:antiquewhite; /* Replace with your desired background color */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  font-family: Arial, sans-serif; /* Choose a suitable font-family */
+}
+
+
+
